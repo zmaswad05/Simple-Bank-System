@@ -1,49 +1,32 @@
 # Simple-Bank-System
 
-Introduction
-------------
+The Simple Bank System is a console-based application that manages client accounts, transactions, and balances. It leverages CRUD operations to ensure efficient management of banking operations. Here's how it works:
 
-The Bank Management System is a console-based application designed to manage client accounts, transactions, and balances. It allows users to perform various operations such as adding new clients, updating client information, depositing and withdrawing money, and viewing client details and balances. The system provides an intuitive interface for efficient management of banking operations.
-
-Features
---------
-
-*   **Client Management**: Add, update, delete, and find client information.
-*   **Transaction Handling**: Deposit and withdraw money from client accounts.
-*   **Balance Inquiry**: View total balances of all clients.
-*   **Data Persistence**: Client data is stored in a text file for persistence across sessions.
-*   **User-friendly Interface**: Intuitive menus and prompts for easy navigation and operation.
-
-How to Use
-----------
-
-1.  **Compile the Code**: Use a C++ compiler to compile the provided source code.
-2.  **Run the Executable**: Execute the compiled binary file to start the application.
-3.  **Main Menu**: Choose from various options in the main menu to perform desired operations.
-4.  **Client Management**: Add, delete, update, or find client information as needed.
-5.  **Transactions**: Perform deposit or withdrawal transactions for client accounts.
-6.  **Balance Inquiry**: View the total balances of all clients.
-7.  **Exit**: Exit the application when done.
-
-Menu Options
-------------
-
-### Main Menu
-
-1.  **Show Client List**: Display a list of all clients.
-2.  **Add New Client**: Add a new client to the system.
-3.  **Delete Client**: Delete an existing client from the system.
-4.  **Update Client Info**: Update the information of an existing client.
-5.  **Find Client**: Search for a client by account number.
-6.  **Transactions**: Navigate to the transactions menu.
-7.  **Exit**: Quit the application.
-
-### Transactions Menu
-
-1.  **Deposit**: Deposit money into a client's account.
-2.  **Withdraw**: Withdraw money from a client's account.
-3.  **Total Balances**: View the total balances of all clients.
-4.  **Main Menu**: Return to the main menu.
+1.  **CRUD Operations**:
+    
+    *   **Create**: Add new clients to the system.
+    *   **Read**: Display client information, search for clients by account number, and view total balances.
+    *   **Update**: Modify existing client information.
+    *   **Delete**: Remove clients from the system.
+2.  **User-friendly Interface**:
+    
+    *   The system provides intuitive menus and prompts for easy navigation and operation.
+    *   Users can perform various tasks such as adding, updating, and deleting clients, as well as conducting transactions and checking balances.
+3.  **Data Persistence**:
+    
+    *   Client data is stored in a text file ("Client.txt") for persistence across sessions.
+    *   When the application starts, it loads client data from the file into memory.
+    *   Any changes made during the session are automatically saved back to the file, ensuring data integrity.
+4.  **Features**:
+    
+    *   **Client Management**: Add, update, delete, and find client information.
+    *   **Transaction Handling**: Deposit and withdraw money from client accounts.
+    *   **Balance Inquiry**: View total balances of all clients.
+5.  **How to Use**:
+    
+    *   Compile the provided source code using a C++ compiler.
+    *   Run the compiled binary file to start the application.
+    *   Use the main menu to perform desired operations such as managing clients, conducting transactions, and checking balances.
 
 Data Persistence
 ----------------
